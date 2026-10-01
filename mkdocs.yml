@@ -1,0 +1,46 @@
+site_name: SIGEVA-UNC — Guía para investigadores
+site_description: Manual de uso de SIGEVA-UNC elaborado por la SeICyT de la Facultad de Filosofía y Humanidades (UNC)
+site_author: Secretaría de Investigación, Ciencia y Técnica — FFyH, UNC
+docs_dir: docs
+exclude_docs: |
+  _plantilla.md
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+nav:
+  - Inicio: index.md
+  - Primeros pasos:
+      - Qué es SIGEVA y cómo se relaciona con CONICET y CVar: primeros-pasos/que-es.md
+      - Crear usuario e ingresar: primeros-pasos/usuario.md
+      - Roles: primeros-pasos/roles.md
+  - Cargar tu CV:
+      - Cómo funcionan las tablas y los formularios: cv/mecanica.md
+      - Autores, palabras clave e instituciones: cv/campos-comunes.md
+      - Datos personales: cv/datos-personales.md
+      - Formación: cv/formacion.md
+      - Cargos (docencia, I+D, gestión): cv/cargos.md
+      - Antecedentes: cv/antecedentes.md
+      - Producción científica: cv/produccion-cientifica.md
+      - Producción tecnológica: cv/produccion-tecnologica.md
+      - Producción artística: cv/produccion-artistica.md
+      - Otros antecedentes: cv/otros.md
+      - CV adjunto e impresión: cv/adjunto-impresion.md
+  - Sincronizar datos: sincronizacion/index.md
+  - Proyectos y trámites: proyectos-y-tramites/index.md
+  - Preguntas frecuentes: faq.md
+  - Glosario: glosario.md
+  - Registro de cambios: cambios.md

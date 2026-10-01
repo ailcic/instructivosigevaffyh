@@ -1,0 +1,5 @@
+site/
+.venv/
+__pycache__/
+# PDF de terceros: licencias sin resolver, no se versionan (URL en investigacion/fuentes.md)
+investigacion/fuentes-pdf/
