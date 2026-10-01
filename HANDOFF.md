@@ -5,6 +5,14 @@ Origen: conversación en Claude (chat) que se continúa en un repositorio con Cl
 
 > **Actualización 2026-09-30 (Claude Code).** Decidido: tratamiento *vos*; alcance v1 = CV + sincronización + trámites FFyH; verificación navegando el sistema real en solo lectura. Las pp. 246–257 del manual UBA ya se leyeron. Los archivos de investigación se movieron a `investigacion/`. Estado vigente: `CLAUDE.md` e `investigacion/fuentes.md`.
 
+> **Actualización 2026-10-01 (Claude Code).** Este documento queda como **registro histórico** del traspaso. El estado vigente está en `INDICE.md` y el detalle de sesiones en `investigacion/bitacora.md`. Respecto de lo que sigue:
+> - **Backlog (sección 7):** hechos los puntos 1 a 6 (el 3, relevamiento del sistema real, en `investigacion/relevamiento-*.md`; la redacción, en `docs/`, versión 0.1 en la rama `borrador/v0.1`). Pendientes: 7, 8 (parcial) y 9.
+> - **Navegación (sección 6):** reemplazada por la del `mkdocs.yml` actual, que sigue las solapas reales del sistema.
+> - **Brecha (sección 4):** confirmada contra el sistema; SIGEVA-UNC tiene hoy todos esos formularios. «Áreas de actuación» existe como **Experticia en CyT**, dentro de Datos personales.
+> - **Efecto «foto» (hallazgo 5):** la pantalla Trámite de SIGEVA-UNC lo declara en sus notas.
+> - **Preguntas abiertas (sección 8):** resueltas el tratamiento (*vos*) y el alcance (banco de datos, sincronización y trámite por código en la v0.1; postulación a becas y otras solicitudes, en una etapa posterior). Siguen abiertas: usos docentes de SIGEVA en la UNC, convocatorias que se canalizan por SIGEVA, licencia y validación institucional.
+> - **Prioridad nueva:** el formulario Experticia en CyT es clave para el proyecto de visibilización de investigaciones de la SeICyT-FFyH.
+
 ## 1. Objetivo
 Un manual de SIGEVA-UNC para investigadores, en formato tipo MkDocs, que permita consulta ágil y versionado. Debe actualizar el manual UNC (2011) al menos al estado del manual UBA (7.ª ed.) y sumar sugerencias propias que se definirán durante el proyecto.
 

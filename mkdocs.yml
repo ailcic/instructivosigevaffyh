@@ -18,29 +18,35 @@ markdown_extensions:
   - def_list
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       permalink: true
 nav:
   - Inicio: index.md
-  - Primeros pasos:
+  - Aspectos generales:
       - Qué es SIGEVA y cómo se relaciona con CONICET y CVar: primeros-pasos/que-es.md
       - Crear usuario e ingresar: primeros-pasos/usuario.md
       - Roles: primeros-pasos/roles.md
-  - Cargar tu CV:
-      - Cómo funcionan las tablas y los formularios: cv/mecanica.md
-      - Autores, palabras clave e instituciones: cv/campos-comunes.md
+  - Banco de datos:
+      - Navegación general: cv/navegacion.md
+      - Tablas y formularios: cv/mecanica.md
+      - Instituciones, revistas, autores, áreas y palabras clave: cv/campos-comunes.md
       - Datos personales: cv/datos-personales.md
+      - Experticia en CyT: cv/experticia.md
       - Formación: cv/formacion.md
-      - Cargos (docencia, I+D, gestión): cv/cargos.md
+      - Cargos: cv/cargos.md
       - Antecedentes: cv/antecedentes.md
-      - Producción científica: cv/produccion-cientifica.md
-      - Producción tecnológica: cv/produccion-tecnologica.md
-      - Producción artística: cv/produccion-artistica.md
+      - "Producciones y servicios: publicaciones": cv/publicaciones.md
+      - "Producciones y servicios: desarrollos, servicios y bienes": cv/desarrollos-servicios.md
+      - "Producciones y servicios: producción artística": cv/produccion-artistica.md
       - Otros antecedentes: cv/otros.md
-      - CV adjunto e impresión: cv/adjunto-impresion.md
-  - Sincronizar datos: sincronizacion/index.md
-  - Proyectos y trámites: proyectos-y-tramites/index.md
+      - Currículum adjunto e impresión del CV: cv/adjunto-impresion.md
+  - Compartir e importar datos: sincronizacion/index.md
+  - Trámite: proyectos-y-tramites/index.md
   - Preguntas frecuentes: faq.md
   - Glosario: glosario.md
   - Registro de cambios: cambios.md

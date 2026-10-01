@@ -5,7 +5,7 @@ Proyecto de la Secretaría de Investigación, Ciencia y Técnica (SeICyT) de la 
 ## Objetivo del proyecto
 Producir un manual de uso de SIGEVA (instalación de la Universidad Nacional de Córdoba) más amigable que el vigente, en formato de documentación versionable (MkDocs / Material for MkDocs o similar). El punto de partida es actualizar el *Manual del Usuario del Banco de Datos* de la UNC (2011) al menos al nivel de cobertura del *Manual del Investigador* de la UBA (7.ª edición), e ir agregando sugerencias propias a lo largo del proyecto.
 
-Contexto completo, hallazgos y plan: ver `HANDOFF.md`. Comparación de los tres manuales base: `investigacion/comparacion-manuales.md`. Fuentes y estado de verificación: `investigacion/fuentes.md`.
+**Punto de entrada: `INDICE.md`** (estado del proyecto y mapa de documentos). Bitácora de sesiones y autorizaciones vigentes para navegar el sistema: `investigacion/bitacora.md`. Contexto de origen: `HANDOFF.md`. Comparación de los tres manuales base: `investigacion/comparacion-manuales.md`. Fuentes y estado de verificación: `investigacion/fuentes.md`.
 
 ## Alcance de la versión 1
 Banco de datos (CV), sincronización con SIGEVA-CONICET y CVar, y los trámites que la FFyH canaliza por SIGEVA (a confirmar cuáles contra el sistema real y los instructivos de la Facultad). La postulación completa de proyectos como director queda fuera de la v1.
@@ -22,10 +22,14 @@ Docentes-investigadores y becarios de la UNC que cargan su CV en SIGEVA-UNC (htt
 6. **Aviso de honestidad heredado:** un relevamiento previo de manuales de ~30 universidades quedó **descartado** por no estar respaldado (ver `HANDOFF.md`, sección 2). No usarlo como fuente. Todo relevamiento nuevo debe abrir y leer cada documento citado. `investigacion/pistas-relevamiento-no-verificado.md` es solo una lista de enlaces a comprobar: nada de su contenido se cita sin abrir el documento original.
 7. **Verificación contra el sistema real:** se navega https://sigeva.unc.edu.ar con la sesión del usuario en **solo lectura** (no guardar, modificar, borrar, compartir ni importar). No se registran datos personales en notas ni capturas.
 
+8. **Experticia en CyT es prioritaria:** el formulario es la base del proyecto de visibilización de investigaciones de la SeICyT-FFyH; va con tratamiento destacado en el manual.
+9. **Al cerrar una sesión:** agregar una entrada en `investigacion/bitacora.md` y actualizar el estado en `INDICE.md`.
+
 ## Estructura del repo
 ```
 .
 ├── CLAUDE.md
+├── INDICE.md               # estado del proyecto y mapa de documentos
 ├── HANDOFF.md
 ├── mkdocs.yml
 ├── docs/
@@ -39,8 +43,12 @@ Docentes-investigadores y becarios de la UNC que cargan su CV en SIGEVA-UNC (htt
 │   ├── glosario.md
 │   └── cambios.md          # registro de versiones del manual
 └── investigacion/          # material de trabajo, no se publica
+    ├── bitacora.md                    # pedidos, decisiones y resultados por sesión
+    ├── metodo-relevamiento.md         # cómo se relevó el sistema y se tomaron las capturas
     ├── comparacion-manuales.md
     ├── fuentes.md
+    ├── relevamiento-sistema.md        # estructura real de SIGEVA-UNC (2026-09-30)
+    ├── relevamiento-formularios.md    # campos de cada formulario y buscadores
     ├── pistas-relevamiento-no-verificado.md
     └── fuentes-pdf/        # PDF de terceros, fuera de git
 ```

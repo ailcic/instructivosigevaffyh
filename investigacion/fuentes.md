@@ -42,6 +42,17 @@ Descargados a `investigacion/fuentes-pdf/` y leídos completos (texto extraído 
 - **Ficha docente CONEAU (FCM):** cadena SIGEVA UNC → SIGEVA CONICET → CVar → CONEAU Global, tildando "Tengo una ficha creada en CVar" al crear la cuenta.
 - **Evaluación docente (guía funcional CONICET, 2012):** el docente usa el rol de banco de datos (al CV se le "saca una foto" al presentar) y el rol de presentación/solicitud; una convocatoria por unidad académica; "Dato académico" con cargo, materia/área, legajo, resolución de designación, vencimiento, especialidad y comisión; adjuntos: plan de trabajo (obligatorio), informe y otros. Es de 2012: verificar vigencia en la UNC y si la FFyH lo usa.
 
+## Sistema real
+| Fuente | URL | Estado |
+|---|---|---|
+| SIGEVA-UNC, versión 13.2.16.2, rol de banco de datos | https://sigeva.unc.edu.ar | Relevado el 2026-09-30 y el 2026-10-01 en solo lectura. Notas en `relevamiento-sistema.md` y `relevamiento-formularios.md`; método en `metodo-relevamiento.md` |
+
+### Documentos que el propio sistema enlaza (Principal → Instructivos)
+Identificados por su dirección; **no abiertos ni leídos**.
+- Manual del Banco de Datos de Actividades CyT, v2 (CONICET): `convocatorias.conicet.gov.ar/wp-content/uploads/sites/3/Manual-Banco-de-Datos-CyT_v2.pdf`. Es una versión anterior a la v4 ya leída.
+- Guía de sincronización v2 (CONICET): `web.conicet.gov.ar/documents/16254/3597638/SIGEVA-Guia-de-Sincronizacion_v2.pdf`. Presumiblemente el mismo documento ya leído desde otra dirección.
+- Instructivo de navegación: página interna del sistema (`instructivoBancoDeDatoNavOper.do`).
+
 ## Otros documentos abiertos
 | Fuente | URL | Estado |
 |---|---|---|
