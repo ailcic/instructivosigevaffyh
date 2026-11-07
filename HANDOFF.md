@@ -5,6 +5,8 @@ Origen: conversación en Claude (chat) que se continúa en un repositorio con Cl
 
 > **Actualización 2026-09-30 (Claude Code).** Decidido: tratamiento *vos*; alcance v1 = CV + sincronización + trámites FFyH; verificación navegando el sistema real en solo lectura. Las pp. 246–257 del manual UBA ya se leyeron. Los archivos de investigación se movieron a `investigacion/`. Estado vigente: `CLAUDE.md` e `investigacion/fuentes.md`.
 
+> **Actualización 2026-11-06 (Claude Code).** Se incorporaron instructivos y talleres de áreas de la UNC (FCE 2024, FAUD 2025, Odontología, talleres del 6 y el 13/8/2026) y se releyó completo el manual UBA. Hallazgo principal: **el banco de datos actual de SIGEVA-UNC no tiene la estructura del manual UNC 2011** (ver `investigacion/armonizacion.md`, sección 1). Se redactó la versión 0.2 del manual con todas las páginas del banco de datos; todo sigue `pendiente_verificar`. Próximo paso: verificación en el sistema real con la lista de `armonizacion.md`, sección 4. Puntos 3–6 del backlog (sección 7): 4 y 5–6 hechos en borrador; 3 pendiente.
+
 ## 1. Objetivo
 Un manual de SIGEVA-UNC para investigadores, en formato tipo MkDocs, que permita consulta ágil y versionado. Debe actualizar el manual UNC (2011) al menos al estado del manual UBA (7.ª ed.) y sumar sugerencias propias que se definirán durante el proyecto.
 
