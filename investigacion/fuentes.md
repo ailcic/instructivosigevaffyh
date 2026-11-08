@@ -57,6 +57,26 @@ Vistas en resultados de búsqueda del 2026-09-30. Abrir antes de citar.
 - UNLP (Exactas), procedimiento SIGEVA-UNLP ↔ CONICET ↔ CVar: https://www.exactas.unlp.edu.ar/uploads/docs/manual_procedimientos_sigevaunlp_cvar.pdf
 - Universidad Barceló, manual de usuario n.º 2 (carga de datos, 2025): https://www.barcelo.edu.ar/archivos/investigacion/Instructivo 2 - Carga datos 2025.pdf
 
+## Instructivos y talleres de áreas de la UNC (incorporados el 2026-11-06)
+Archivos aportados por el usuario en `investigacion/`. Leídos completos el 2026-11-06 (texto extraído; las capturas no se leen). La armonización entre fuentes está en `armonizacion.md`. Claves usadas en el manual entre corchetes.
+
+| Clave | Fuente | Archivo | Estado |
+|---|---|---|---|
+| FCE-2024 | Barrera, V. S. y Renny, A. (2024). *Instructivo para registrar publicaciones en el Sistema Integral de Gestión y Evaluación (SIGEVA)*. Biblioteca Manuel Belgrano, Facultad de Ciencias Económicas, UNC. 76 pp. **Licencia CC BY-NC 4.0** (declarada en la portada) | `Barrera, V. S.; Renny, A. (2024)…pdf` | Leído completo |
+| FCE-pautas | Biblioteca Manuel Belgrano, FCE-UNC. *Pautas a tener en cuenta al cargar en SIGEVA* (presentación en PDF, sin fecha; metadatos de 2019). 15 pp. Contactos: www.eco.unc.edu.ar/investigadores | `Sigeva_Practica_carga.pdf` | Leído completo |
+| FAUD-2025 | Biblioteca Mario Fernández Ordoñez, FAUD-UNC (2025). *Instructivo de carga. Banco de Datos – CV – SIGEVA. Instructivo de carga CV Docente / Investigador*. 9 pp. | `Instructivo SIGEVA - Carga CV Docente.pdf` | Leído completo. Es el mismo instructivo FAUD que figuraba como «no leído» más arriba; no se confirmó que sea idéntico al del sitio web |
+| FO | Biblioteca de la Facultad de Odontología, UNC. *Banco de datos: ingreso de producciones científicas. Sigeva* (presentación, sin fecha). 16 diapositivas | `Copia de Presentación Sigeva FO.pptx` | Leído completo (texto de diapositivas) |
+| Taller-1 | Taller sobre SIGEVA, primer encuentro, 2026-08-06, organizado por la Secretaría Académica (según la grabación), para docentes, investigadores y becarios de varias unidades académicas de la UNC. Presentación «SIGEVA – I Encuentro» (27 diapositivas, en su mayoría imágenes) y transcripción automática de la grabación | `SIGEVA - I Encuentro.pptx`; `File-Taller sobre SIGEVA - 2026_08_06…Recording.md` | Leído completo. La transcripción es automática: tiene errores de reconocimiento («CIGEVA», «Cebar», «Coneo»). Se usan solo las afirmaciones claras de las talleristas, no las de participantes |
+| Taller-2 | Taller sobre SIGEVA, «encuentro de profundización», 2026-08-13. Presentación «SIGEVA Taller II» (14 diapositivas) y transcripción. Incluye demostración en pantalla sobre SIGEVA-UNC | `SIGEVA Taller II.pptx`; `File-Taller sobre SIGEVA - 2026_08_13…Recording.md` | Leído completo. Mismas salvedades que Taller-1 |
+
+Valor como evidencia: son posteriores al manual UNC 2011 y describen la estructura actual del sistema (ver `armonizacion.md`, sección 1). Los talleres muestran el sistema en pantalla, pero **no reemplazan la verificación propia**: las páginas siguen como `pendiente_verificar`.
+
+Datos de contacto mencionados: soporte SIGEVA-UNC `consultas@sigeva.unc.edu.ar` (Encuentro I, diap. 27); página informativa https://www.unc.edu.ar/informática/sigeva (FAUD-2025, FCE-2024).
+
+**Datos personales:** las transcripciones contienen nombres de participantes y detalles de sus trayectorias. No se citan en el manual. Conviene no versionarlas en git (están sin seguimiento; ver `.gitignore`).
+
+**Licencias:** FCE-2024 es CC BY-NC 4.0; los demás no declaran licencia. Como con los manuales base, se redacta texto propio y se cita la sección.
+
 ## Copias locales
 Los tres PDF base están en `investigacion/fuentes-pdf/` (fuera de git por licencias sin resolver). Texto extraíble con `pdftotext`.
 

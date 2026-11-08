@@ -3,3 +3,8 @@ site/
 __pycache__/
 # PDF de terceros: licencias sin resolver, no se versionan (URL en investigacion/fuentes.md)
 investigacion/fuentes-pdf/
+# Instructivos y presentaciones de terceros (licencias sin resolver) y
+# transcripciones de talleres (contienen nombres de participantes): no se versionan.
+investigacion/*.pdf
+investigacion/*.pptx
+investigacion/File-Taller*.md
