@@ -51,8 +51,8 @@ Docentes-investigadores y becarios de la UNC que cargan su CV en SIGEVA-UNC (htt
 - Cada release registra en `docs/cambios.md` qué se verificó contra el sistema y cuándo.
 - Ramas: `main` (publicable), `borrador/*` (secciones en redacción).
 
-## Licencias (a resolver antes de publicar)
+## Licencias
 - La guía CONICET v4 declara en su portada que no admite uso comercial de la obra ni de derivadas, y que su distribución debe hacerse con licencia igual. El pie del portal SIGEVA del CONICET dice contenidos bajo CC Reconocimiento 2.5 Argentina. Hay una discrepancia a aclarar.
 - No se conoce la licencia del manual de la UBA ni del de la UNC.
 - El instructivo de publicaciones de la Biblioteca FCE-UNC (Barrera y Renny, 2024) es CC BY-NC 4.0. Los demás instructivos y presentaciones de áreas de la UNC no declaran licencia. Criterio de armonización entre fuentes: `investigacion/armonizacion.md`.
-- Recomendación: texto original, licencia abierta para el nuevo manual (por ejemplo CC BY-SA 4.0) tras confirmar compatibilidad, y declarar las fuentes consultadas.
+- **Decidido (2026-11-08): el manual se publica bajo CC BY-SA 4.0** (`LICENSE`, pie del sitio y sección «Licencia» de `docs/index.md`). Alcanza al texto, que es de redacción propia, y a las capturas propias; no a las marcas y logotipos de la UNC y del CONICET que aparecen en ellas. Se siguen declarando las fuentes consultadas. Por eso sigue vigente la regla 2: no copiar texto ni capturas de las fuentes, cuyas licencias (por ejemplo, la NC de la guía CONICET v4 y de la FCE) serían incompatibles con CC BY-SA.

@@ -48,6 +48,12 @@ Las fuentes de cada página quedan registradas en sus metadatos. En el texto sol
 - Talleres sobre SIGEVA para docentes e investigadores de la UNC (6 y 13 de agosto de 2026): presentaciones y grabaciones.
 - Instructivos de la UNC para concursos docentes (2022) y de la FCM para la ficha docente CONEAU (2022).
 
+## Licencia
+
+El texto y las capturas de esta guía se publican bajo licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es): podés copiarlos, adaptarlos y redistribuirlos, incluso con fines comerciales, siempre que cites la fuente y publiques las obras derivadas con la misma licencia.
+
+El texto es de redacción propia y no transcribe los manuales e instructivos consultados. Las capturas muestran la interfaz de SIGEVA-UNC: los nombres, marcas y logotipos de la UNC y del CONICET que aparecen en ellas no quedan alcanzados por esta licencia.
+
 ## Contacto
 
 - Soporte técnico de SIGEVA-UNC: `consultas@sigeva.unc.edu.ar`.
