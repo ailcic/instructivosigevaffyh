@@ -1,17 +1,17 @@
 ---
 fuente:
   - "Elaboración propia"
-verificado_contra: no aplica
-fecha_verificacion: 
-estado: pendiente_verificar
+verificado_contra: ambos
+fecha_verificacion: 2026-11-08
+estado: verificado
 ---
 
 # SIGEVA-UNC: guía para investigadores
 
 Guía de uso de [SIGEVA-UNC](https://sigeva.unc.edu.ar) para docentes-investigadores y becarios. La elaboró la Secretaría de Investigación, Ciencia y Técnica (SeICyT) de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba.
 
-!!! warning "Versión en construcción (0.2)"
-    Esta versión reúne y armoniza lo que dicen el manual de la UBA (7.ª ed.), el manual de la UNC (2011), las guías de CONICET y los instructivos y talleres que distintas áreas de la UNC publicaron entre 2019 y 2026. **Todavía no se verificó en el sistema.** Si algo no coincide con lo que ves en pantalla, vale la pantalla. Avisanos para corregirlo.
+!!! warning "Versión en construcción (0.3)"
+    Esta versión armoniza el manual de la UBA (7.ª ed.), el manual de la UNC (2011), las guías de CONICET y los instructivos y talleres que distintas áreas de la UNC publicaron entre 2019 y 2026, y **se verificó contra el sistema el 8 de noviembre de 2026**, en solo lectura. Lo que no se pudo comprobar está marcado como pendiente. Si algo no coincide con lo que ves en pantalla, vale la pantalla. Avisanos para corregirlo.
 
 ## Por dónde empezar
 
@@ -23,24 +23,22 @@ Guía de uso de [SIGEVA-UNC](https://sigeva.unc.edu.ar) para docentes-investigad
 
 ## Cómo leer esta guía
 
-El texto común describe cómo funciona el sistema según las fuentes consultadas. Lo demás va en recuadros:
+El texto común describe cómo funciona el sistema, tal como se verificó en pantalla. Lo demás va en recuadros:
 
-!!! tip "Sugerencia de la SeICyT"
-    Recomendaciones propias de esta guía. No son comportamiento oficial del sistema.
+!!! tip "Sugerencia"
+    Recomendaciones de esta guía o de otras áreas de la UNC (bibliotecas, secretarías, talleres). Son buenas prácticas, no reglas del sistema.
 
-!!! info "Criterio de otras áreas de la UNC"
-    Criterios de carga que recomiendan bibliotecas, secretarías o talleres de la UNC. Son buenas prácticas, no reglas del sistema. Se indica de dónde vienen.
-
-!!! question "Las fuentes no coinciden"
-    Cuando dos instructivos dicen cosas distintas, se muestran las dos versiones y se indica qué criterio adopta esta guía.
+!!! danger "DECIDIR: tema"
+    Casos en los que las fuentes no coinciden y el sistema no lo resuelve. Cada recuadro dice qué dice cada fuente, qué muestra el sistema y qué hay que decidir. Los revisa el Consejo Asesor de Ciencia Abierta de la UNC.
 
 !!! note "Pendiente de verificar"
-    Datos que vienen de un único manual, en general antiguo, y que hay que comprobar en el sistema.
+    Datos que no se pudieron comprobar en el sistema. Se indica de qué fuente vienen.
 
-Cada página indica al final las fuentes consultadas: la sección del manual o instructivo, no una transcripción.
+Las fuentes de cada página quedan registradas en sus metadatos. En el texto solo se citan en lo pendiente de verificar y en los recuadros DECIDIR.
 
 ## Fuentes de esta versión
 
+- SIGEVA-UNC (<https://sigeva.unc.edu.ar>): pantallas del sistema, consultadas el 8 de noviembre de 2026, y su *Instructivo Navegación* interno.
 - Universidad de Buenos Aires, *Manual del Investigador SIGEVA*, 7.ª ed.
 - Universidad Nacional de Córdoba, *Manual del Usuario del Banco de Datos* (2011).
 - CONICET, *Banco de Datos de Actividades CyT*, v4 (2017), y *Sincronización de datos del CV*, v2 (2015).
