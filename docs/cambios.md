@@ -21,6 +21,7 @@ Verificación contra el sistema real. Se recorrió <https://sigeva.unc.edu.ar> c
 - **Correcciones principales:** Compartir solo ofrece CONICET y autoriza de forma permanente, sin elegir formularios ni años; Datos personales no se puede importar; Cambio de Contraseña no pide la contraseña actual; Producción artística tiene nueve tablas; eventos sin institución organizadora; la lista de cargos de la FFyH no incluye «Profesor asistente»; los nombres de solapas, pantallas y tablas siguen los del sistema.
 - **Fuentes en el texto:** en lo verificado se quitaron las referencias visibles a las fuentes; quedan en los metadatos de cada página. Los recuadros «Criterio de otras áreas de la UNC» pasan a ser «Sugerencia».
 - **DECIDIR:** las discrepancias que el sistema no resuelve se marcan con recuadros «DECIDIR» (17 en esta versión), para revisión del Consejo Asesor de Ciencia Abierta de la UNC. Reemplazan los recuadros «Las fuentes no coinciden».
+- **Licencia:** el manual se publica bajo CC BY-SA 4.0 (texto y capturas propias).
 - **Sigue pendiente:** el formulario de registro y la recuperación de contraseña (requieren la sesión cerrada), el contenido de Cambio de Datos, el rol Miembro comisión, qué ocurre después de incorporarse a un trámite o enviar una presentación, algunos formularios de producción artística y de desarrollos, la carga manual de revistas, y los pasos dentro de SIGEVA-CONICET, CVar y CONEAU Global.
 
 ## 0.2 (2026-11-06)

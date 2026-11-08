@@ -35,6 +35,10 @@ Y abrí <http://127.0.0.1:8000>.
 
 Cada cambio que llega a `main` se publica solo en GitHub Pages (ver [`.github/workflows/publicar.yml`](.github/workflows/publicar.yml)). Las secciones en redacción se trabajan en ramas `borrador/*` y se integran con un pull request.
 
+## Licencia
+
+El manual (texto y capturas) se publica bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Ver [`LICENSE`](LICENSE). Los nombres, marcas y logotipos de la UNC y del CONICET que aparecen en las capturas no quedan alcanzados por esta licencia.
+
 ## Correcciones
 
 Si algo del manual no coincide con lo que ves en SIGEVA-UNC, vale la pantalla: abrí un *issue* en este repositorio o escribí a la SeICyT de la FFyH.

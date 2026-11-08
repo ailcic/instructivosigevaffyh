@@ -4,7 +4,7 @@ site_author: Secretaría de Investigación, Ciencia y Técnica — FFyH, UNC
 site_url: https://ailcic.github.io/instructivosigevaffyh/
 repo_url: https://github.com/ailcic/instructivosigevaffyh
 repo_name: ailcic/instructivosigevaffyh
-copyright: Secretaría de Investigación, Ciencia y Técnica — Facultad de Filosofía y Humanidades, Universidad Nacional de Córdoba
+copyright: Secretaría de Investigación, Ciencia y Técnica — Facultad de Filosofía y Humanidades, Universidad Nacional de Córdoba · Texto y capturas bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>
 docs_dir: docs
 exclude_docs: |
   _plantilla.md
