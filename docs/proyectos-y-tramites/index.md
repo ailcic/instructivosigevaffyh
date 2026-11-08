@@ -1,11 +1,12 @@
 ---
 fuente:
+  - "SIGEVA-UNC, sistema real (2026-11-08): solapa Trámite del banco de datos"
   - "Manual del Investigador, UBA (7.ª ed.), 3.14, 4.1–4.3.1, 4.3.5 y 5"
   - "UNC, Instructivo para creación de usuario y postulación en SIGEVA (concursos docentes, 2022)"
   - "CONICET, SIGEVA Módulo Evaluación Docente (2012)"
   - "Taller sobre SIGEVA, UNC, 2026-08-06 (grabación) y 2026-08-13 (diap. 7, grabación y demostración)"
-verificado_contra: manual
-fecha_verificacion: 
+verificado_contra: ambos
+fecha_verificacion: 2026-11-08
 estado: pendiente_verificar
 ---
 
@@ -18,7 +19,7 @@ Cómo usar el banco de datos para presentarte a una convocatoria o sumarte a un 
 
 ## La regla: la «foto» del banco de datos
 
-Cuando enviás una presentación o te asociás a un proyecto, **el sistema copia tu banco de datos en ese momento**. Esa copia es lo que ve quien evalúa. Lo que actualices después sirve para futuras presentaciones, pero **no cambia** la ya enviada.
+Cuando te incorporás a un trámite, **el sistema saca una «foto» de tu banco de datos en ese momento**. Así lo advierte la propia pantalla de **Trámite**: después podés actualizar tus datos para futuras presentaciones, pero esos cambios **no se reflejan** en el trámite actual. Esa foto es lo que ve quien evalúa.
 
 !!! example "Ejemplo"
     Te asociás a un proyecto el 1 de marzo. El 10 de marzo te aceptan un artículo y lo cargás. El proyecto sigue mostrando tu banco del 1 de marzo, sin el artículo.
@@ -48,8 +49,10 @@ Según la convocatoria, después puede hacer falta **imprimir** la presentación
 
 Depende de la unidad académica y del tipo de llamado (ver [Roles](../primeros-pasos/roles.md#concursos-docentes)). En algunas se inscribe uno por SIGEVA y en otras se entrega el CV impreso desde SIGEVA. Según el instructivo de concursos de la UNC (2022), en la inscripción por SIGEVA se piden, entre otros datos, el «Lugar de Trabajo Propuesto», los «Datos Académicos» y los archivos adjuntos, y se envía con **Enviar Presentación**.
 
-!!! question "Las fuentes no coinciden: ¿cuenta lo que no está en SIGEVA?"
-    Según el taller del 6/8/2026, en los concursos que se tramitan por SIGEVA lo que no está cargado en el banco no se considera, porque es la declaración jurada de antecedentes. En el del 13/8/2026 se aclaró que algunas comisiones usan también el CV adjunto para contrastar. Depende del reglamento: **cargá todo lo pertinente en el banco** y no confíes en el CV adjunto.
+!!! danger "DECIDIR: ¿cuenta lo que no está en el banco de datos?"
+    - **Qué dice cada fuente.** Según el taller sobre SIGEVA del 6/8/2026, en los concursos que se tramitan por SIGEVA lo que no está cargado en el banco no se considera, porque es la declaración jurada de antecedentes. En el del 13/8/2026 se aclaró que algunas comisiones usan también el CV adjunto para contrastar.
+    - **Qué muestra el sistema.** Nada al respecto: depende del reglamento de cada concurso o convocatoria.
+    - **Criterio propuesto, a confirmar.** **Cargá todo lo pertinente en el banco** y no confíes en el CV adjunto.
 
 ## Evaluación docente e informes
 
@@ -60,10 +63,18 @@ El CONICET documenta un módulo de evaluación docente, que mencionaba a la UNC 
 
 ## Sumarte a un proyecto como integrante
 
-Según el manual de la UBA, desde el banco de datos hay una sección **Trámite** (o «Proyectos / Trámites») donde se ingresa el **código del trámite** que te pasa el director o la directora del proyecto, y se confirma. Como mínimo, tenés que tener cargados datos personales, lugar de trabajo, formación académica y el CV adjunto.
+Si la directora o el director de un proyecto te incluye en su presentación, te va a pasar un **código del trámite**.
+
+1. Ingresá con el rol **Usuario banco de datos de actividades de CyT** y revisá que tu banco esté actualizado.
+2. En el menú superior, entrá a **Trámite**. Se abre **Participación en una convocatoria**.
+3. Escribí el **Código del trámite** y presioná **Aceptar**. **Salir** vuelve sin incorporarte.
+
+![Pantalla Participación en una convocatoria: campo Código del trámite, nota sobre la foto de los datos y botones Aceptar y Salir](../assets/tramite-codigo.png)
+
+Si no tenés el código, pedíselo a quien es titular del trámite.
 
 !!! note "Pendiente de verificar"
-    El procedimiento viene del manual de la UBA. Hay que confirmarlo en SIGEVA-UNC y con las convocatorias de la SeCyT-UNC.
+    Qué pasa después de **Aceptar** y qué datos mínimos exige el sistema. Según el manual de la UBA, como mínimo hay que tener cargados datos personales, lugar de trabajo, formación académica y el CV adjunto. No se probó porque incorporarse a un trámite tiene efectos.
 
 ## Trámites de la FFyH por SIGEVA
 

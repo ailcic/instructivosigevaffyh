@@ -1,46 +1,59 @@
 ---
 fuente:
+  - "SIGEVA-UNC, sistema real (2026-11-08): pantalla de selección de rol, Asignar colaborador y solapa Trámite"
   - "Manual del Investigador, UBA (7.ª ed.), 2.2, 3.2.1 y 4.1"
+  - "Guía Banco de Datos de Actividades CyT v4, CONICET (2017), Asignar colaborador"
   - "Taller sobre SIGEVA, UNC, 2026-08-06 (diap. 5 y grabación) y 2026-08-13 (grabación)"
   - "FAUD-UNC (2025), p. 2"
-verificado_contra: manual
-fecha_verificacion: 
-estado: pendiente_verificar
+verificado_contra: ambos
+fecha_verificacion: 2026-11-08
+estado: verificado
 ---
 
 # Roles
 
-Después de ingresar, SIGEVA te pide elegir un **rol**. No son sistemas distintos: es la misma plataforma vista desde distintas funciones.
+Después de ingresar, SIGEVA muestra la pantalla **Seleccione para operar**, con el sistema (**Sistema Integral de Gestión y Evaluación**) y tus **roles**. No son sistemas distintos: es la misma plataforma vista desde distintas funciones. Hacé clic en el rol con el que vas a trabajar.
 
 | Rol | Para qué sirve | Quién lo ve |
 |---|---|---|
-| **Usuario banco de datos de actividades de CyT** | Cargar y actualizar tu CV. Desde acá también se comparte, se importa y se imprime el CV | Todas las personas usuarias |
-| **Usuario presentación/solicitud** | Hacer trámites: postularte a becas, proyectos, concursos, sumarte a un equipo o enviar informes, según lo que esté habilitado | Todas las personas usuarias |
-| **Miembro comisión** | Evaluar en una convocatoria (proyectos, carrera docente, otras evaluaciones institucionales) | Solo si te designaron para evaluar |
+| **Usuario banco de datos de actividades de CyT** | Cargar y actualizar tu CV. Desde acá también se comparte, se importa y se imprime el CV, y te incorporás a trámites | Todas las personas usuarias |
+| **Usuario presentación/solicitud** | Hacer trámites: postularte a becas, proyectos o concursos, o enviar informes, según lo que esté habilitado | Todas las personas usuarias |
+| **Colaborador banco de datos de actividades CyT** | Cargar datos en el banco de otra persona que te asignó como colaborador/a | Solo si alguien te asignó |
+| **Miembro comisión** | Evaluar en una convocatoria | Solo si te designaron para evaluar |
+
+Según tu situación, pueden aparecer otros roles, por ejemplo administrativos.
+
+!!! note "Pendiente de verificar"
+    El rol **Miembro comisión** y el contenido del rol **Usuario presentación/solicitud** no se vieron en el sistema. Provienen del manual de la UBA y de los talleres sobre SIGEVA de 2026.
 
 ## Cómo se combinan
 
 El orden es siempre el mismo: **primero el banco de datos y después la presentación**. Cuando te presentás a algo, el sistema toma los datos que tengas en el banco en ese momento.
 
 !!! warning "El efecto «foto»"
-    Al enviar una presentación o al asociarte a un proyecto, el sistema guarda una copia del banco de datos en ese momento. Lo que cambies después **no se refleja** en ese trámite. Revisá el banco antes de presentarte. Más detalle en [Proyectos y trámites](../proyectos-y-tramites/index.md).
+    Al incorporarte a un trámite, el sistema saca una «foto» de tus datos. Lo que cambies después sirve para futuras presentaciones, pero **no se refleja** en ese trámite. Revisá el banco antes de presentarte. Más detalle en [Proyectos y trámites](../proyectos-y-tramites/index.md).
+
+## Asignar un colaborador
+
+Si otra persona te ayuda a cargar el CV, podés darle acceso a tu banco de datos:
+
+1. En la Principal del banco de datos, en la barra negra, entrá a **Asignar colaborador**. Vas a ver la lista de personas asignadas, con su rol, nombre, CUIL y fecha de alta, y los enlaces **Ver | Borrar**.
+2. Presioná **Nuevo**.
+3. En **Tipo de rol**, elegí **Colaborador banco de datos de actividades CyT**.
+4. Escribí el apellido y el nombre de la persona y presioná **Buscar**. Elegila para que quede en **Usuario seleccionado**.
+5. Presioná **Guardar**.
+
+La persona tiene que tener usuario en SIGEVA-UNC. Desde ese momento ve el rol de colaborador en su pantalla de roles. Para quitarle el acceso, usá **Borrar** en la lista.
+
+!!! warning "Dar acceso es dar acceso a todo el banco"
+    Quien colabora puede cargar y modificar tus datos. Asigná solo a personas de confianza y quitá el acceso cuando ya no lo necesiten.
 
 ## Concursos docentes
 
-Depende de la unidad académica y del tipo de llamado:
+Según los talleres sobre SIGEVA de 2026, depende de la unidad académica y del tipo de llamado:
 
-- En algunas, el concurso pide el **CV impreso desde SIGEVA** (un PDF) junto con el resto de la documentación. Alcanza con el rol de banco de datos.
+- En algunas, el concurso pide el **CV impreso desde SIGEVA** (un PDF) junto con el resto de la documentación. Alcanza con el rol de banco de datos (ver [Imprimir el CV](../cv/adjunto-impresion.md#imprimir-el-cv)).
 - En otras, la inscripción se hace **dentro de SIGEVA**, con el rol de presentación/solicitud.
 - Incluso dentro de una misma unidad, un concurso y una selección interna pueden tramitarse distinto.
 
 Leé siempre las bases del llamado.
-
-!!! note "Pendiente de verificar"
-    El manual de la UBA menciona otras secciones dentro del banco de datos, como **Trámite** (asociarse a un proyecto con un código) y **Asignar colaborador** (dar acceso a otra persona para que cargue por vos). La guía de CONICET v4 aclara que el colaborador debe estar registrado en la misma institución. Falta confirmar si ambas existen en SIGEVA-UNC.
-
-## Fuentes
-
-- Manual del Investigador, UBA (7.ª ed.), 2.2, 3.2.1 y 4.1.
-- Taller sobre SIGEVA, UNC, 6/8/2026: diapositiva 5 y grabación (roles y concursos).
-- Taller sobre SIGEVA, UNC, 13/8/2026: grabación.
-- FAUD-UNC (2025), p. 2.
