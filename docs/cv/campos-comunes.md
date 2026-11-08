@@ -1,6 +1,6 @@
 ---
 fuente:
-  - "SIGEVA-UNC, sistema real (2026-11-08): formulario Nuevo de Libro (autores, áreas, palabras clave, resumen) y pantalla Búsqueda de instituciones"
+  - "SIGEVA-UNC, sistema real (2026-11-08): formularios Nuevo de Libro y de Artículo (autores, áreas, palabras clave, resumen) y pantalla Búsqueda de instituciones"
   - "Manual del Investigador, UBA (7.ª ed.), 3.5–3.7"
   - "FCE-UNC, Barrera y Renny (2024), secciones Autores y Áreas del conocimiento y palabras clave"
   - "Biblioteca FCE-UNC, Pautas a tener en cuenta al cargar en SIGEVA, puntos 1–3"
@@ -20,13 +20,16 @@ Tres tipos de campo se repiten en casi todos los formularios de producción. Si 
 
 ## Autores
 
-La tabla **Autores** tiene tres columnas: **Autores**, **Instituciones** y **Orden**. Trae cuatro filas vacías.
+La tabla **Autores** tiene las columnas **Autores**, **Instituciones** y **Orden**.
 
 1. Escribí cada autor en su propia fila, en la columna **Autores**.
 2. Cargá **a todas las personas autoras**, en el **orden en que figuran en la publicación**. Vos tenés que estar en la lista.
 3. Si hacen falta más filas, presioná **Nuevo**, en el encabezado de la tabla. Para quitar una fila, presioná **Borrar**, a su izquierda.
 
-La columna **Orden** solo numera las filas: no hay botones para mover un autor de lugar. Si te equivocaste en el orden, corregí los nombres en las filas.
+La tabla no es igual en todos los formularios:
+
+- En **Artículos** tiene dos columnas más: **Sel.**, para marcar cuál de los autores sos vos, y **Mover**, con flechas para cambiar el orden.
+- En otros formularios, como **Libros** y **Partes de libros**, no las tiene: la columna **Orden** solo numera las filas. Si te equivocaste en el orden, corregí los nombres en las filas.
 
 !!! tip "Sugerencia"
     Escribí cada nombre como **Apellido, Nombre**, sin mayúsculas sostenidas, y siempre de la misma forma en todo tu CV.
