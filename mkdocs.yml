@@ -1,6 +1,10 @@
 site_name: SIGEVA-UNC — Guía para investigadores
 site_description: Manual de uso de SIGEVA-UNC elaborado por la SeICyT de la Facultad de Filosofía y Humanidades (UNC)
 site_author: Secretaría de Investigación, Ciencia y Técnica — FFyH, UNC
+site_url: https://ailcic.github.io/instructivosigevaffyh/
+repo_url: https://github.com/ailcic/instructivosigevaffyh
+repo_name: ailcic/instructivosigevaffyh
+copyright: Secretaría de Investigación, Ciencia y Técnica — Facultad de Filosofía y Humanidades, Universidad Nacional de Córdoba
 docs_dir: docs
 exclude_docs: |
   _plantilla.md
